@@ -1,11 +1,12 @@
 # steam-achievements
 
 Command-line tool to see player achievements for a steam game. Uncovers hidden achievements from the game schema.
+Requires a `STEAM_API_KEY` which can be obtained from https://steamcommunity.com/dev/apikey.
 
 Usage:
 
 ```bash
-node --loader ts-node/esm index.ts --steamid <STEAMID> --appid <APPID>
+STEAM_API_KEY=<...> node --loader ts-node/esm index.ts --steamid <STEAMID> --appid <APPID>
 ```
 
 ![example](./docs/images/example.png)
