@@ -10,7 +10,7 @@ node --loader ts-node/esm index.ts --steamid <STEAMID> --appid <APPID>
 
 ![example](./docs/images/example.png)
 
-# Known Issues
+## Known Issues
 
 Node, Typescript, and ts-node are having some trouble working with each other through the ESM transition. Your installed 
 node and npm version, along with `package.json` and `tsconfig.json` may be finicky. See 
